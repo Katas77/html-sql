@@ -1,0 +1,30 @@
+/* Основные стили для всей таблицы */
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Стили для ячеек заголовков таблицы */
+.my-table th {
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white;              /* Белый текст */
+    padding: 10px;             /* Внутренний отступ */
+    text-align: left;          /* Выравнивание текста по левому краю */
+}
+
+/* Стили для всех ячеек таблицы */
+.my-table td,
+.my-table th {
+    border: 1px solid #ddd;   /* Тонкая серо-серая рамка вокруг каждой ячейки */
+    padding: 8px;             /* Внутренние отступы */
+}
+
+/* Чередование цвета фона у четных и нечетных строк */
+.my-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Светло-серый фон для четных строк */
+}
+
+/* Наведение курсора мыши на строку */
+.my-table tbody tr:hover {
+    background-color: #ddd;     /* Серый фон при наведении курсора */
+}

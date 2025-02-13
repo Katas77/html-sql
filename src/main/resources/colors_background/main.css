@@ -1,0 +1,44 @@
+/* Основные стили для контейнера */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Стили для изображений */
+.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для блока с цветом */
+.color-block {
+    width: 200px;
+    height: 200px;
+    background-color: #ff6347; /* Цвет фона */
+    margin: 20px auto;
+}
+
+/* Стили для блока с фоном */
+.background-block {
+    width: 300px;
+    height: 300px;
+    background-image: url("background.png"); /* URL изображения */
+    background-position: center; /* Позиция изображения */
+    background-size: cover; /* Масштабирование изображения */
+    background-repeat: no-repeat; /* Повторение изображения */
+    margin: 20px auto;
+}
+
+/* Стили для блока с границей */
+.border-block {
+    width: 250px;
+    height: 250px;
+    border: 10px solid #6495ed; /* Толщина, стиль и цвет границы */
+    border-radius: 15px; /* Закругленные углы */
+    margin: 20px auto;
+}

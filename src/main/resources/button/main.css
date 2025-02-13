@@ -1,0 +1,134 @@
+/* Общий стиль для всех кнопок */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Простая кнопка */
+.simple-button {
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+
+/* Кнопка с иконкой */
+.icon-button {
+    background-color: #2196F3; /* Синий фон */
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+.icon-button span {
+    margin-right: 10px;        /* Отступ справа от иконки */
+}
+
+/* Анимационная кнопка */
+.animated-button {
+    background-color: #FF9800; /* Оранжевый фон */
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+.animated-button:hover {
+    transform: scale(1.05);    /* Увеличение масштаба при наведении */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Добавляем тень */
+}
+
+/* Плавающая кнопка */
+.floating-button {
+    position: fixed;           /* Фиксированное положение */
+    bottom: 20px;              /* Расположение внизу */
+    right: 20px;               /* Расположение справа */
+    background-color: #e91e63; /* Розовый фон */
+    color: white;              /* Белый текст */
+    border-radius: 50%;        /* Круглая форма */
+    width: 60px;               /* Ширина кнопки */
+    height: 60px;              /* Высота кнопки */
+    display: flex;             /* Гибкий контейнер */
+    justify-content: center;   /* Центрирование по горизонтали */
+    align-items: center;       /* Центрирование по вертикали */
+    font-size: 24px;           /* Увеличиваем размер шрифта */
+}
+
+/* Кнопка с градиентом */
+.gradient-button {
+    background-image: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+
+/* Большая кнопка */
+.large-button {
+    font-size: 24px;           /* Увеличенный шрифт */
+    padding: 20px 40px;        /* Больший внутренний отступ */
+    background-color: #673ab7; /* Пурпурный фон */
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+
+/* Маленькая кнопка */
+.small-button {
+    font-size: 12px;           /* Уменьшенный шрифт */
+    padding: 5px 10px;         /* Меньший внутренний отступ */
+    background-color: #ffc107; /* Желтый фон */
+    color: black;              /* Черный текст */
+    border: none;              /* Без рамки */
+}
+
+/* Круглая кнопка */
+.round-button {
+    border-radius: 50%;        /* Круглая форма */
+    padding: 10px 20px;        /* Внутренний отступ */
+    background-color: #3f51b5; /* Синий фон */
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+
+/* Развернутая кнопка */
+.stretched-button {
+    width: 100%;               /* Занимает всю ширину родителя */
+    background-color: #009688; /* Зеленый фон */
+    color: white;              /* Белый текст */
+    border: none;              /* Без рамки */
+}
+
+/* Дисплейная кнопка */
+.display-button {
+    background-color: transparent; /* Прозрачный фон */
+    color: #03a9f4;                /* Голубой текст */
+    border-bottom: 2px solid currentColor; /* Подчеркивание */
+    padding: 10px 0;               /* Внутренний отступ сверху и снизу */
+}
+
+/* Блокирующая кнопка */
+.block-button {
+    display: block;                /* Блоковый элемент */
+    width: 100%;                   /* Занимает всю ширину родителя */
+    background-color: #795548;     /* Коричневый фон */
+    color: white;                  /* Белый текст */
+    border: none;                  /* Без рамки */
+    text-align: center;            /* Центрирование текста */
+}
+
+/* Групповые кнопки */
+.group-buttons {
+    display: flex;                 /* Гибкий контейнер */
+    gap: 10px;                     /* Промежутки между кнопками */
+}
+.grouped-button {
+    flex-grow: 1;                  /* Равномерное распределение ширины */
+    background-color: #607d8b;      /* Серый фон */
+    color: white;                  /* Белый текст */
+    border: none;                  /* Без рамки */
+}
+
+/* Обрабатывающая кнопка */
+.event-button {
+    background-color: #ff5722;     /* Красный фон */
+    color: white;                  /* Белый текст */
+    border: none;                  /* Без рамки */
+}
+.event-button:active {
+    background-color: darken(#ff5722, 10%); /* Темнеет при нажатии */
+}

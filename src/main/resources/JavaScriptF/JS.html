@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>table</title>
+    <style>
+        .block1    {
+              font-weight:bold;}
+        .block2    {
+              color:green;}
+
+    </style>
+</head>
+<body>
+<script src="scripts/function.js"></script>
+<script>
+    console.error('Привет от JavaScript!');
+    let codes = {
+      "49": "Германия",
+      "41": "Швейцария",
+      "44": "Великобритания",
+      "1": "США"
+    };
+
+    for (let code in codes) {
+       alert(code);
+      alert(codes[code]);
+    }
+</script>
+
+
+
+
+
+<span class="block1">Текст можно выделить жирным</span>
+<span class="element"><a href="https://mail.ru/" target="_blank" class="block3">Открыть в новом окне mail.ru</a></span>
+<p class="block2">Группа ТКС «Холдинг», в состав которой входит Т-банк (бывший «Тинькофф»), сменит название на
+    «Т-Технологии», сообщили РБК в пресс-службе холдинга.</p>
+
+</body>
+</html>
+
